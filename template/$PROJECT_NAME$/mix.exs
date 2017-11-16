@@ -5,7 +5,7 @@ defmodule <%= @project_name_camel_case %>.Mixfile do
   @version "0.1.0"
 
   @deps [
-    {:postgrex, ">= 0.0.0"  },
+    { :postgrex, ">= 0.0.0" },
     { :ecto,     ">= 0.0.0" },      
   ]
   

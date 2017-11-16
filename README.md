@@ -23,7 +23,7 @@ So, before using templates for the first time, you need to install these two tas
     
 Then you can install this template using
 
-    $ mix template.install gen_template_ecto_server
+    $ mix template.install hex gen_template_ecto_server
     
 
 ## Use
@@ -31,7 +31,7 @@ Then you can install this template using
 To create a basic project, with no supervision and no application, run:
 
 ~~~
-$ mix gen project «project_name»
+$ mix gen ecto_server «project_name»
 ~~~
 
 `«project_name»` is both the name of the subdirectory that will hold the
@@ -44,7 +44,7 @@ By default the subdirectory will be created under your
 current directory; you can change this with the `--into` option:
 
 ~~~
-$ mix gen project «project_name» --into some/other/dir
+$ mix gen ecto_server «project_name» --into some/other/dir
 ~~~
 
 ### Then...
