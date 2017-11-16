@@ -43,7 +43,6 @@ defmodule Project.Mixfile do
         "README.md",
         "lib",
         "mix.exs",
-        "priv",
         "template",
       ],
       maintainers: @maintainers,
